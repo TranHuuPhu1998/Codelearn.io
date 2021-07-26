@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cái aspect ratio hữu ích trong responsive ảnh, và loại bỏ viền đen video youtube khi set đúng tỷ  lệ 16/9</title>
+    <style>
+        .container {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .box {
+            width: 100%;
+            padding-top: calc(100% * (9/16));
+            background: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            
+        </div>
+    </div>
+</body>
+</html>
